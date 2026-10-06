@@ -6,10 +6,15 @@ namespace WebApplication1.Controllers;
 
 public class ProfileController : Controller
 {
-    public IActionResult Profile()
+    public IActionResult Details()
     {
         // Dito iinitialize yung data?
         // Like make the projects as objects with some data for the model to get
+        return View();
+    }
+
+    public IActionResult Menu()
+    {
         return View();
     }
 

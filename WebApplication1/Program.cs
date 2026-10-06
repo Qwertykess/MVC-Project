@@ -27,7 +27,7 @@ public class Program
         app.MapStaticAssets();
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Home}/{action=Index}/{id?}")
+            pattern: "{controller=Profile}/{action=Menu}/{id?}")
             .WithStaticAssets();
 
         app.Run();
