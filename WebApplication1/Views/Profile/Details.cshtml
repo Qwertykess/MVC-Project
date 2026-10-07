@@ -1,9 +1,42 @@
 @{
     ViewData["Title"] = "Profile Details";
 }
-
-<div class="text-center">
-    <h1 class="display-4">This is okay!</h1>
-    <p>gggagagagagag <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    @* <a asp-area="" asp-controller="Profile" asp-action="Privacy">Privacy</a> *@
+<div class="center-content">
+    @* Child Container *@
+    <div class="span-box">
+        @* Picture Side *@
+        <div class="span-box">
+            @* The picture *@
+            <div class="text-center mrg-bottom">
+                <img class="rounded-pic" src="https://scontent.fmnl4-3.fna.fbcdn.net/v/t39.30808-1/335483985_168371746053765_4861048964446655774_n.jpg?stp=dst-jpg_tt6&cstp=mx753x758&ctp=s200x200&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeFIA7IYTsQfxa-M7JGAhAkFh68yD_2W3HiHrzIP_ZbceKN9hHBrmVrtNdeu8ztMVtjTIbWV4Qp94F3Be5Z2EOh_&_nc_ohc=mC4eX4mh0lcQ7kNvwEfg273&_nc_oc=AdryxOa5fMiPXHfTehew5jazlW3WN6dmIv1ThdfUUexxUXshUJkjE82mOwcFJefWh1TfVqftxJq6B8SShDm93DGD&_nc_zt=24&_nc_ht=scontent.fmnl4-3.fna&_nc_gid=hjsfXuJE5d-GAn-h0epU3A&_nc_ss=7b2a8&oh=00_AQP5AP8wahNXMpoA0fj7LgvbajNPmuy3hILkoSCBPjiOuw&oe=6ACBF193" alt="Blueberries" width="250" height="250">
+            </div>
+            @* Name and scholar??? *@
+            <div class="text-center coldir">
+                <span>Kenneth Anthony B. Barotilla</span>
+                <span>Polytechnic University of the Philippines - Main</span>
+            </div>
+        </div>
+        @* Text Side *@
+        <div class="span-box">
+            @* Text container *@
+            <div class="text-content rounded text-center mrg-bottom coldir padding-top">
+                <p>I am Kenneth Anthony B. Barotilla, a 3rd Year student of Bachelor of Science in Computer Science in Polytechnic University of the Philippines.</p>
+                <p>A <b>DOST-SEI Udergraduate Scholar</b> since 2024.</p>
+                <p>Indicated below are my socials.</p>
+            </div>
+            @* Social links *@
+            <div class="evenly">
+                @* Facebook *@
+                <a href="https://www.facebook.com/bacus.ken" title="Facebook Account"><img class="rounded-pic-link" src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/blueberries.jpg?raw=true" alt="Blueberries"></a>
+                @* Github *@
+                <a href="https://github.com/Qwertykess" title="Github Account"><img class="rounded-pic-link" src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/blueberries.jpg?raw=true" alt="Blueberries"></a>
+                @* LinkedIn *@
+                <a href="https://www.linkedin.com/in/kenneth-anthony-barotilla-5499b9321/" title="LinkedIn Account"><img class="rounded-pic-link" src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/blueberries.jpg?raw=true" alt="Blueberries"></a>
+                @* Discord *@
+                <a href="https://discord.com/users/807204660372701205" title="Discord Account"><img class="rounded-pic-link" src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/blueberries.jpg?raw=true" alt="Blueberries"></a>
+                @* Email *@
+                <a href="mailto:barotillakenneth@gmail.com" title="Mail Me!"><img class="rounded-pic-link" src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/blueberries.jpg?raw=true" alt="Blueberries"></a>
+            </div>
+        </div>
+    </div>
 </div>

@@ -29,3 +29,75 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.padding-top {
+  padding-top: 15px;
+}
+
+.mrg-bottom {
+  margin-bottom: 20px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coldir {
+  flex-direction: column;
+}
+
+.span-box {
+  padding: 25px 45px 25px 45px;
+  font-family: "Courier New";
+}
+
+.rounded {
+  border-style: solid;
+  border-radius: 15px;
+  border-color: rgb(223, 210, 166);
+}
+
+.rounded-pic {
+  border: solid blue 1px;
+  border-radius: 50%;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-box, .btn-box:link {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgb(241, 245, 195);
+}
+
+.btn-box:hover {
+  background-color: rgb(222, 228, 155);
+}
+
+.evenly {
+  display:flex;
+  justify-content: space-between;
+}
+
+.evenly .rounded-pic-link {
+  width: 50px;
+  border: solid blue 1px;
+  border-radius: 50%;
+  height: 50px;
+}
+
+.rounded-pic-link:hover {
+  width: 60px;
+  height: 60px;
+}

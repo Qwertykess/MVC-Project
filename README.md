@@ -8,7 +8,6 @@
 
 - Profile Menu
     - HTML Layout (Check excalidraw)
-        - Remove header layout on the starting page (yung may hello world) but keep it for the others
 
 - Profile Details
     - HTML Layout (Check excalidraw)

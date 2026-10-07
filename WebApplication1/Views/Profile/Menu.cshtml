@@ -1,8 +1,12 @@
 @{
     ViewData["Title"] = "Menu";
 }
-
-<div class="text-center">
-    <h1 class="display-4">HELLO WORLD!</h1>
-    @* <p>A <a href="https://learn.microsoft.com/aspnet/core">HREF TO other file loc what</a>.</p> *@
+<div class="center-content coldir">
+    <div class="text-center">
+        <h1 class="span-box rounded">Hello World!</h1>
+    </div>
+    <div class="span-box evenly">
+        <a class="span-box btn-box rounded" asp-area="" asp-controller="Profile" asp-action="Details">Profile</a>
+        <a class="span-box btn-box rounded" asp-area="" asp-controller="Profile" asp-action="Projects">Portfolio</a>
+    </div>
 </div>

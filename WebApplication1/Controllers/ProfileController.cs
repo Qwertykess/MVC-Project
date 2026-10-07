@@ -8,8 +8,6 @@ public class ProfileController : Controller
 {
     public IActionResult Details()
     {
-        // Dito iinitialize yung data?
-        // Like make the projects as objects with some data for the model to get
         return View();
     }
 
@@ -20,6 +18,7 @@ public class ProfileController : Controller
 
     public IActionResult Projects()
     {
+        // var urlDB
         return View();
     }
 
