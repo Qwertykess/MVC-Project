@@ -73,6 +73,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .btn-box, .btn-box:link {
@@ -100,4 +101,37 @@ a {
 .rounded-pic-link:hover {
   width: 60px;
   height: 60px;
+}
+
+/* Portfolio Table styles */
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table {
+  width: 80%;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.col-1 {
+  width: 5%;
+}
+
+.col-2 {
+  width: 30%;
+}
+
+.col-3 {
+  width: 45%;
+}
+
+.col-4 {
+  width: 20%;
 }
