@@ -72,11 +72,11 @@ a {
 .rounded {
   border-style: solid;
   border-radius: 15px;
-  border-color: rgb(223, 210, 166);
+  border-color: rgb(143, 178, 194);
 }
 
 .rounded-pic {
-  border: solid rgba(0, 108, 180, 0.897) 5px;
+  border: solid rgb(47, 83, 121) 5px;
   border-radius: 50%;
 }
 
@@ -86,7 +86,7 @@ a {
 }
 
 .btn-box:hover {
-  background-color: rgb(222, 228, 155);
+  background-color: rgb(137, 175, 219);
 }
 
 /* Content Alignment */
@@ -128,11 +128,13 @@ a {
   background-color: #212529;
 }
 
+.bg-light-blue {
+  background-color: rgb(166, 205, 223);
+}
+
 .opacity {
   opacity: 0.5;
 }
-
-
 
 /* Portfolio Table styles */
 .pf-style {
@@ -169,4 +171,9 @@ table {
 
 .col-4 {
   width: 20%;
+}
+
+/* Navbar */
+.courier-mono {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
