@@ -104,6 +104,10 @@ a {
 }
 
 /* Portfolio Table styles */
+.pf-style {
+  font-family: Georgia;
+}
+
 td, th {
   border: 1px solid #dddddd;
   text-align: left;

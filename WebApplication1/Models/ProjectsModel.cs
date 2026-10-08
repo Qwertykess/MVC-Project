@@ -5,8 +5,8 @@ namespace WebApplication1.Models;
 public class ProjectsModel
 {
     public int ProjID { get; set; }
-    public string? ProjName { get; set; }
-    public string? RepoLink { get; set; } = string.Empty;
+    public string ProjName { get; set; }
+    public string RepoLink { get; set; }
     public DateOnly DateUpdated { get; set; }
     
 }

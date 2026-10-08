@@ -1,42 +1,25 @@
+@model IEnumerable<WebApplication1.Models.ProjectsModel>;
 @{
     ViewData["Title"] = "Projects Tab";
 }
-@model WebApplication1.Models.ProjectsModel
 
 <div class="text-center coldir">
-    @for (int i = 0; i < 10; i++)
-    {
-        <p>Hello</p>
-    }
-    <table>
+    <div class="span-box pf-style"><h1>Project Profolio</h1></div>
+    <table class="pf-style">
         <tr>
             <th class="col-1">No.</th>
             <th class="col-2">Title</th>
             <th class="col-3">Repository Link</th>
             <th class="col-4">Last Updated</th>
         </tr>
-        <tr>
-            <td>1.</td>
-            <td>This is the Title</td>
-            <td>githublinklinklinlkinlinklinklin</td>
-            <td>Kahapon</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>This is the Title</td>
-            <td>githublinklinklinlkinlinklinklin</td>
-            <td>Kahapon</td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>This is the Title</td>
-            <td>githublinklinklinlkinlinklinklin</td>
-            <td>Kahapon</td>
-        </tr>
-        @* @{
-            foreach (var proj in Projects)
-            {
-            }
-        } *@
+        @foreach (var proj in Model)
+        {
+            <tr>
+                <td>@proj.ProjID</td>
+                <td>@proj.ProjName</td>
+                <td><a href="@proj.RepoLink">@proj.RepoLink</a></td>
+                <td>@proj.DateUpdated</td>
+            </tr>
+        }
     </table>
 </div>
