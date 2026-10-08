@@ -2,12 +2,11 @@ html {
   font-size: 14px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   html {
     font-size: 16px;
   }
 }
-/* Common phone width? */
 @media (max-width: 480px) {
   body {
     font-size: 14px;
@@ -27,7 +26,7 @@ html {
   }
 }
 
-
+/* General / Default */
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
@@ -56,27 +55,18 @@ a {
   color: black;
 }
 
+/* Box Classes */
+.span-box {
+  padding: 25px 45px 25px 45px;
+  font-family: "Courier New";
+}
+
 .padding-top {
   padding-top: 15px;
 }
 
 .mrg-bottom {
   margin-bottom: 20px;
-}
-
-.center-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.coldir {
-  flex-direction: column;
-}
-
-.span-box {
-  padding: 25px 45px 25px 45px;
-  font-family: "Courier New";
 }
 
 .rounded {
@@ -86,19 +76,8 @@ a {
 }
 
 .rounded-pic {
-  border: solid blue 1px;
+  border: solid rgba(0, 108, 180, 0.897) 5px;
   border-radius: 50%;
-}
-
-.text-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.bg-light-yellow {
-  background-color: rgba(241, 245, 195, 0.5);
 }
 
 .btn-box, .btn-box:link {
@@ -108,6 +87,17 @@ a {
 
 .btn-box:hover {
   background-color: rgb(222, 228, 155);
+}
+
+/* Content Alignment */
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coldir {
+  flex-direction: column;
 }
 
 .evenly {
@@ -124,6 +114,18 @@ a {
 .rounded-pic-link:hover {
   width: 60px;
   height: 60px;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Color classes */
+.bg-light-yellow {
+  background-color: rgba(241, 245, 195, 0.5);
 }
 
 .opacity {
