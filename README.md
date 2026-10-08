@@ -1,24 +1,5 @@
 # MVC-Project
-- Main Tasks:
-    - Menu Changes (Navigation Bar)
-        - Change Home Index to Profile Menu 
-        - Change Home Privacy to Profile Details
-        - Add Profile Portfolio
-    - CSS Mobile Compatibility
-
-- Profile Menu
-    - HTML Layout (Check excalidraw)
-
-- Profile Details
-    - HTML Layout (Check excalidraw)
-    - Evenly spacing divs
-        - Check https://stackoverflow.com/questions/21610677/how-evenly-space-divs-each-of-a-different-width-within-a-parent-div 
-        - Just add left and right padding
-
-- Profile Portfolio
-    - HTML Layout (Check excalidraw)
-    - HTML table that extends vertically throughout the page but scrollable horizontally
-        - CSS Flexbox w/ overflow-x: auto
-
-- General: 
-    - Learn more about Controllers and Models
+A website that uses MVC Architecture and Git for a school activity
+## Collaborators:
+- Kenneth Anthony B. Barotilla (Qwertykess) - F1 Branch
+- Johnry Cabale (PercyJackstone) - Johnry Branch

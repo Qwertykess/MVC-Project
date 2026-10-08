@@ -38,7 +38,7 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-color: rgba(130, 223, 226, 0.562);
+  background-color: #D9E3F1;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -124,13 +124,15 @@ a {
 }
 
 /* Color classes */
-.bg-light-yellow {
-  background-color: rgba(241, 245, 195, 0.5);
+.bg-dark {
+  background-color: #212529;
 }
 
 .opacity {
   opacity: 0.5;
 }
+
+
 
 /* Portfolio Table styles */
 .pf-style {
