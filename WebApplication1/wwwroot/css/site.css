@@ -2,11 +2,31 @@ html {
   font-size: 14px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   html {
     font-size: 16px;
   }
 }
+/* Common phone width? */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .column {
+    width: 100%;
+  }
+
+  /* Asked AI for this fix */
+  .span-box.evenly {
+    width: 60%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
@@ -19,6 +39,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: rgba(130, 223, 226, 0.562);
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -76,10 +97,13 @@ a {
   text-align: center;
 }
 
+.bg-light-yellow {
+  background-color: rgba(241, 245, 195, 0.5);
+}
+
 .btn-box, .btn-box:link {
   margin-left: 100px;
   margin-right: 100px;
-  background-color: rgb(241, 245, 195);
 }
 
 .btn-box:hover {
@@ -102,6 +126,10 @@ a {
   height: 60px;
 }
 
+.opacity {
+  opacity: 0.5;
+}
+
 /* Portfolio Table styles */
 .pf-style {
   font-family: Georgia;
@@ -113,7 +141,7 @@ td, th {
   padding: 8px;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background-color: #dddddd;
 }
 
