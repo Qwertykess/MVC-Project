@@ -93,7 +93,6 @@ a {
 
 .evenly .rounded-pic-link {
   width: 50px;
-  border: solid blue 1px;
   border-radius: 50%;
   height: 50px;
 }
